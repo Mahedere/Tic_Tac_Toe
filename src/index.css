@@ -20,8 +20,8 @@ html {
 body {
   background: radial-gradient(
       circle at top,
-      rgba(241, 210, 70, 0.98),
-      rgba(250, 176, 103, 0.87)
+      rgba(161, 84, 224, 0.98),
+      rgba(84, 8, 155, 0.87)
     ),
     url('bg-pattern-dark.png');
   background-repeat: repeat;
