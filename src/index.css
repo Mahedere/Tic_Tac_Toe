@@ -75,13 +75,13 @@ h1 {
 }
 
 #players.highlight-player li.active {
-  border-color: #f6e35a;
+  border-color: #54089b;
   animation: pulse 2s infinite ease-in-out;
 }
 
 #players.highlight-player li.active .player-name,
 #players.highlight-player li.active .player-symbol {
-  color: #f6e35a;
+  color: #54089b;
 }
 
 #players button {
@@ -97,7 +97,7 @@ h1 {
 }
 
 #players button:hover {
-  color: #f8ca31;
+  color: #54089b;
 }
 
 .player {
@@ -151,7 +151,7 @@ ol {
 #pre-game button {
   cursor: pointer;
   background: none;
-  color: #f8c031;
+  color: #54089b;
   border: none;
   font-family: 'Caprasimo', cursive;
   font-size: 4rem;
@@ -208,7 +208,7 @@ ol {
   font-family: 'Caprasimo', cursive;
   font-size: 4rem;
   text-align: center;
-  color: #fcd256;
+  color: #54089b;
   margin: 0;
 }
 
@@ -223,8 +223,8 @@ ol {
   margin: 0 auto;
   font-size: 1.5rem;
   background: none;
-  border: 2px solid #fcd256;
-  color: #fcd256;
+  border: 2px solid #54089b;
+  color: #54089b;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   cursor: pointer;
@@ -233,10 +233,10 @@ ol {
 }
 
 #game-over button:hover {
-  background: #fcd256;
+  background: #54089b;
   color: #3f3b00;
   transform: scale(1.1);
-  box-shadow: 0 0 20px rgba(255, 187, 0, 0.8);
+  box-shadow: 0 0 20px rgba(84, 8, 155, 0.87);
 }
 
 #log {
@@ -322,15 +322,15 @@ ol {
 
 @keyframes pulse {
   0% {
-    border-color: #f6e35a;
+    border-color: #54089b;
     box-shadow: 0 0 0 0 rgba(246, 227, 90, 0.4);
   }
   50% {
-    border-color: #f8c031;
+    border-color: #54089b;
     box-shadow: 0 0 0 0.5rem rgba(248, 165, 49, 0);
   }
   100% {
-    border-color: #f6e35a;
+    border-color: #54089b;
     box-shadow: 0 0 0 0 rgba(246, 227, 90, 0);
   }
 }
