@@ -81,7 +81,7 @@ h1 {
 
 #players.highlight-player li.active .player-name,
 #players.highlight-player li.active .player-symbol {
-  color: #54089b;
+  color: #ffff;
 }
 
 #players button {
