@@ -18,11 +18,9 @@ html {
 }
 
 body {
-  background: radial-gradient(
-      circle at top,
+  background: radial-gradient(circle at top,
       rgba(161, 84, 224, 0.98),
-      rgba(84, 8, 155, 0.87)
-    ),
+      rgba(84, 8, 155, 0.87)),
     url('bg-pattern-dark.png');
   background-repeat: repeat;
   background-size: 100% 100%, 30% 30%, 100% 100%;
@@ -44,7 +42,7 @@ h1 {
   font-family: 'Caprasimo', cursive;
   font-size: 3rem;
   margin: 0 auto 3rem auto;
-  color: #3f3b00;
+  color: #fff;
 }
 
 #game-container {
@@ -88,7 +86,7 @@ h1 {
   width: 3rem;
   border: none;
   background: none;
-  color: #c3ba78;
+  color: #ffff;
   font-size: 0.9rem;
   cursor: pointer;
   transition: color 0.2s;
@@ -224,12 +222,12 @@ ol {
   font-size: 1.5rem;
   background: none;
   border: 2px solid #54089b;
-  color: #54089b;
+  color: paleturquoise;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.2s, color 0.2s;
-  box-shadow: 0 0 8px rgba(255, 187, 0, 0.4);
+  box-shadow: 0 0 8px #0e0e0e66;
 }
 
 #game-over button:hover {
@@ -290,6 +288,7 @@ ol {
     opacity: 0;
     transform: translateX(-30%);
   }
+
   100% {
     opacity: 1;
     transform: translateX(0);
@@ -300,9 +299,11 @@ ol {
   0% {
     color: #e1dec7;
   }
+
   50% {
     color: #9f9d83;
   }
+
   100% {
     color: #e1dec7;
   }
@@ -312,9 +313,11 @@ ol {
   0% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(1.05);
   }
+
   100% {
     transform: scale(1);
   }
@@ -325,10 +328,12 @@ ol {
     border-color: #54089b;
     box-shadow: 0 0 0 0 rgba(246, 227, 90, 0.4);
   }
+
   50% {
     border-color: #54089b;
     box-shadow: 0 0 0 0.5rem rgba(248, 165, 49, 0);
   }
+
   100% {
     border-color: #54089b;
     box-shadow: 0 0 0 0 rgba(246, 227, 90, 0);
@@ -341,10 +346,12 @@ ol {
     transform: scale(0);
     opacity: 0;
   }
+
   80% {
     transform: scale(1.1);
     opacity: 1;
   }
+
   100% {
     transform: scale(1);
   }
