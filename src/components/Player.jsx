@@ -20,8 +20,10 @@ export default function Player({ initialName, symbol, isActive, onChangeName }) 
     return <li className={isActive ? 'active' : undefined}>
         <span className="player">
             {editablePlayerName}
-            <span className="player-symbol">{symbol}</span>
+            
         </span>
         <button onClick={handleEditClick}>{isEditing ? 'save' : 'edit'}</button>
+        <span className="player-symbol">{symbol}</span>
+    
     </li>
 }
